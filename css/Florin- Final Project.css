@@ -1,0 +1,158 @@
+  article {
+            font-family: sans-serif;
+
+
+        }
+
+        .sidenav {
+            height: 200%;
+            width: 230px;
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            background-color: aquamarine;
+            padding-top: 100px;
+        }
+
+        .sidenav a:hover {
+            color: darkmagenta;
+        }
+
+        .sidenav a {
+            padding: 10px 8px 1px 20px;
+            text-decoration: none;
+            font-size: 15px;
+            color: darkblue;
+            display: block;
+        }
+        .contacticons {
+
+            bottom: 50px;
+            position: fixed;
+            
+        }
+        section {
+            text-align: justify;
+            margin-left: 190px;
+            margin-right: 0px;
+            font-size: 15px;
+            padding: 0px 50px;
+        }
+         .me {
+          text-shadow:  2px 2px 5px;
+        }
+        
+        img.ff {
+            top: 0;
+            border-radius: 10%;
+            border-right: 0px;
+            filter: grayscale()
+        }
+
+        /*Responsive media Gallery*/
+        div.gallery {
+            border: 1px solid #ccc;
+        }
+
+        div.gallery:hover {
+            border: 1px solid #777;
+        }
+
+        div.gallery img {
+            width: 100%;
+            height: auto;
+        }
+
+        div.desc {
+            padding: 15px;
+            text-align: center;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .responsive {
+            padding: 0 6px;
+            float: left;
+            width: 24.99999%;
+        }
+/* I've used media queries to re-arrange the images on different screen sizes: for screens larger than 700px wide*/
+        @media only screen and (max-width: 700px) {
+            .responsive {
+                width: 49.99999%;
+                margin: 6px 0;
+            }
+        }
+
+        @media only screen and (max-width: 500px) {
+            .responsive {
+                width: 100%;
+            }
+        }
+
+        .clearfix:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+
+/*Styling of Contact area*/
+        input[type=text],
+        select,
+        textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            resize: vertical;
+        }
+
+        input[type=submit] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type=submit]:hover {
+            background-color: #45a049;
+        }
+
+
+        footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding: 0px;
+            background-color: aqua;
+            display: flex;
+            justify-content: space-between;
+            color: white;
+        }
+
+        a.mail {
+            color: white;
+            background: none;
+
+        }
+
+        footer span {
+            font-size: 30px;
+        }
+
+        figure:hover figcaption {
+            top: 300px;
+        }
+
+        figure: hover img {
+            filter: grayscale(0);
+            transform: scale(1.05)
+        }

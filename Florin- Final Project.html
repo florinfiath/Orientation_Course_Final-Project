@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="/Florin- Final Project.css">
+    <style>
+        article {
+            font-family: sans-serif;
+
+
+        }
+
+        .sidenav {
+            height: 200%;
+            width: 230px;
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            background-color: aquamarine;
+            padding-top: 60px;
+        }
+
+        .sidenav a:hover {
+            color: darkmagenta;
+        }
+
+        .sidenav a {
+            padding: 10px 8px 1px 20px;
+            text-decoration: none;
+            font-size: 15px;
+            color: darkblue;
+            display: block;
+        }
+
+        .name {
+            text-align: center;
+        }
+
+        .description {
+            text-align: center;
+        }
+
+        .contacticons {
+
+            bottom: 50px;
+            position: fixed;
+
+
+        }
+
+        section {
+            text-align: justify;
+            margin-left: 190px;
+            margin-right: 0px;
+            font-size: 15px;
+            padding: 0px 50px;
+
+        }
+
+        /*My Skills styling */
+        * {
+            box-sizing: border-box
+        }
+
+        .container {
+            width: 100%;
+            background-color: #ddd;
+        }
+
+        .skills {
+            text-align: right;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            color: white;
+        }
+
+        .html {
+            width: 90%;
+            background-color: #9AE092;
+        }
+
+        .css {
+            width: 80%;
+            background-color: #74E0C2;
+        }
+
+        .js {
+            width: 65%;
+            background-color: #E0958E;
+        }
+
+        .me {
+            text-shadow: 2px 2px 5px;
+        }
+
+
+        .Quattrocento {
+            font-family: 'Advent Pro', sans-serif;
+            font-family: 'Gothic A1', sans-serif;
+            font-family: 'Gudea', sans-serif;
+            font-family: 'Quattrocento Sans', sans-serif;
+        }
+
+        .font1 {
+            font-family: 'Advent Pro', sans-serif;
+            font-weight: normal;
+
+        }
+
+        img.ff {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            filter: grayscale()
+        }
+
+        /*Responsive media Gallery*/
+        div.gallery {
+            border: 1px solid #ccc;
+        }
+
+        div.gallery:hover {
+            border: 1px solid #777;
+        }
+
+        div.gallery img {
+            width: 100%;
+            height: auto;
+        }
+
+        div.desc {
+            padding: 15px;
+            text-align: center;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .responsive {
+            padding: 0 6px;
+            float: left;
+            width: 24.99999%;
+        }
+
+        /* I've used media queries to re-arrange the images on different screen sizes: for screens larger than 700px wide*/
+        @media only screen and (max-width: 700px) {
+            .responsive {
+                width: 49.99999%;
+                margin: 6px 0;
+            }
+        }
+
+        @media only screen and (max-width: 500px) {
+            .responsive {
+                width: 100%;
+            }
+        }
+
+        .clearfix:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+
+        /*Styling of Contact area*/
+        input[type=text],
+        select,
+        textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            resize: vertical;
+        }
+
+        input[type=submit] background-color: #4CAF50;
+        color: white;
+        padding: 12px 20px;
+
+
+
+        .mail {
+            position: fixed;
+            width: 80%;
+            bottom: 30px;
+            color:blue;
+        }
+
+        .copyright {
+            position: fixed;
+            width: 50%;
+            bottom: 10px;
+            color:blue;
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <article>
+
+
+        <div class="sidenav">
+
+            <img class="ff" src="images/FF.JPG" alt="100" width="150">
+
+
+            <h2 class="name">FLORIN FIATH</h2>
+
+            <p class="description"> FULL-STACK SOFTWARE ENGINEER</p>
+
+            <a href="#home">HOME</a>
+            <a href="#about">ABOUT</a>
+            <a href="#my skills">MY SKILLS</a>
+            <a href="#media">MY WORK </a>
+            <a href="#contact">CONTACT</a>
+
+
+        </div>
+
+        <div class="contacticons">
+
+            <a href="http://facebook.com">
+                <ion-icon name="logo-facebook"></ion-icon>
+            </a><a href="http://linkedin.com">
+                <ion-icon name="logo-linkedin"></ion-icon>
+            </a><br><br>
+        </div>
+
+
+
+        <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+
+    </article>
+
+
+    <main>
+
+
+        <section id="s1">
+            <h2 id="home">Hi,I'm Florin,</h2>
+
+            <p class="Quattrocento">a web developer specialized in front-end and back-end solutions</p>
+
+            <link href="https://fonts.googleapis.com/css2?family=Advent+Pro&family=Gothic+A1&family=Gudea&family=Quattrocento+Sans:wght@700&display=swap" rel="stylesheet">
+        </section>
+
+        <section id="s2">
+            <h2 id="about">About</h2>
+
+            <p class="me"> Hello , I`m Florin Fiath from Romania.I am Front-End and Back-End Web Developer.I am highly motivated to study and get more coding skills every day .It was a new and fascinating world for me. </p>
+
+            <p class="font1">Web developers are found working in various types of organizations, including large corporations and governments, small and medium-sized companies, or alone as freelancers. Some web developers work for one organization as a permanent full-time employee, while others may work as independent consultants, or as contractors for an agency or at home personal use. Web developers typically handle both server-side and front-end logic. This usually involves implementing all the visual elements that users see and use in the web applications or use, as well as all the web services that are necessary to power the usage of their developing work. Salaries vary depending on the type of development work, location, and level of seniority.<a href="https://en.wikipedia.org/wiki/Web_developer"> Wikipedia </a></p>
+
+            <p class="font1">Modern web applications often contain three or more tiers, and depending on the size of the team a developer works on, he or she may specialize in one or more of these tiers - or may take a more interdisciplinary role. A web developer is usually classified as a Front-end web development or a Back-End Web Developer. For example, in a two-person team, one developer may focus on the technologies sent to the client such as HTML, JavaScript, CSS, ReactJs or AngularJS and on the server-side frameworks (such as Perl, Python, Ruby, PHP, Java, ASP, ASP.NET, Node.js) used to deliver content and scripts to the client. Meanwhile, the other developer might focus on the interaction between server-side frameworks, the webserver, and a database system. Further, depending on the size of their organization, the aforementioned developers might work closely with a content creator/copywriter, marketing adviser, user experience designer, web designer, web producer, project manager, software architect, or database administrator - or they may be responsible for such tasks as web design and project management themselves.<a href="https://en.wikipedia.org/wiki/Web_developer"> Wikipedia </a></p>
+
+            <h2 id="my skills">My Skills</h2>
+
+            <p>HTML</p>
+            <div class="container">
+                <div class="skills html">90%</div>
+            </div>
+
+            <p>CSS</p>
+            <div class="container">
+                <div class="skills css">80%</div>
+            </div>
+
+            <p>JavaScript</p>
+            <div class="container">
+                <div class="skills js">65%</div>
+            </div>
+
+
+            <link href="https://fonts.googleapis.com/css2?family=Advent+Pro&family=Gudea&display=swap" rel="stylesheet">
+
+        </section>
+
+        <section id="s3">
+
+            <h2 id="media">My Work</h2>
+            <h3><a target="_blank" href="https://www.google.com/search?source=univ&tbm=isch&q=clopotiva&sa=X&ved=2ahUKEwiBxIqmjvfqAhVrShUIHZCjBdoQsAR6BAgKEAE&biw=1366&bih=663"> Clopotiva, a Place in Transylvania</a></h3>
+
+            <div class="responsive">
+                <div class="gallery">
+                    <a href="images/Clopotiva-overview.jpeg" target="_blank">
+                    </a>
+
+                    <img class="Clopo1" src="images/Clopotiva-overview.jpeg" alt="Up in the Sky" width="200" height="400">
+
+
+                </div>
+            </div>
+
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="/images/Clopotiva%20de%20sus1%20(1).jpeg">
+                    </a>
+                    <img src="images/Clopotiva%20de%20sus1%20(1).jpeg" alt="Up in the Sky" width="200" height="200">
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+
+                    <a target="_blank" href="images/Clopotiva%20de%20sus1%20(2).jpeg">
+                    </a>
+                    <img src="images/Clopotiva%20de%20sus1%20(2).jpeg" alt="Up in the Sky" width="200" height="200">
+
+                </div>
+            </div>
+
+            <div class="responsive">
+                <div class="gallery">
+
+                    <a target="_blank" href="images/Clopo_Paragliding.jpeg">
+                    </a>
+                    <img src="images/Clopo_Paragliding.jpeg" alt="Up in the Sky1" width="200" height="400">
+
+                </div>
+            </div>
+
+            <div class="clearfix"></div>
+            <div style="padding:10px;">
+                <p> </p>
+            </div>
+
+
+            <iframe width="300" height="200" src="images/Clopo_Video1.mp4""https://www.youtube.com/embed/t99KH0TR-J4""" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="300" height="200" src="images/Clopo_Video2.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="300" height="200" src="images/Clopo3.mp4""" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        </section>
+
+        <section id="s4">
+
+            <h2 id="contact">Contact</h2>
+            <p>Let's get in touch.Send me a message</p>
+
+            <form action="/action_page.php">
+                <label for="name"> Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name..">
+                <label for="mail"> Email</label>
+                <input type="text" id="mail" name="mail" placeholder="Your mail..">
+
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+                <input type="submit" value="SEND MESSAGE">
+            </form>
+
+        </section>
+
+        <footer>
+
+
+            <small class="copyright">&copy;2020</small>
+
+            <div class="mail">
+
+                <p>Author: Florin Fiath</p>
+
+                    <a href="mailto:fiathf@yahoo.com">fiathf@yahoo.com</a>
+            </div>
+
+
+        </footer>
+
+
+
+    </main>
+
+</body>
+
+</html>
